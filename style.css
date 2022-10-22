@@ -8,11 +8,11 @@
         width: 60px;
         height: 60px;
         position: relative;
-        top:100px;
+        top:140px;
     }
     #d{
         width: 60px;
-        height: 100px;
+        height: 60px;
     }
     #cactus{
     width: 30px;
@@ -32,11 +32,11 @@
     animation: jump 0.6s linear;  
     }
     @keyframes jump {
-    0%{top:100px}
-    40%{top:20px}
-    50%{top:0px}
-    60%{top:20px}
-    100%{top:100px}
+    0%{top:140px}
+    40%{top:60px}
+    50%{top:20px}
+    60%{top:60px}
+    100%{top:140px}
     }
     /* #button{
     position: relative;
@@ -61,4 +61,9 @@ animation: chaykaMove 5s infinite linear;
 @keyframes chaykaMove {
 0%{left:830px}
 100%{left:-10px}
+}
+#instruction{
+position: absolute;
+top: 600px;
+left: 500px;
 }

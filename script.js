@@ -1,5 +1,6 @@
 const dino = document.getElementById("dino");
 const cactus = document.getElementById("cactus");
+const chayka = document.getElementById("chayka");
 document.addEventListener("keydown",function(event){
     jump()
 })
